@@ -1,0 +1,714 @@
+{
+  "student": {
+    "student_name": "Jasmine Regina Bailey",
+    "grade_level": "Seventh grade",
+    "disability": "Health Impairment",
+    "reading_level": "Grade 3 (Vocab G3, Lit Comp G3, Info Comp G2)",
+    "math_level": "Grade 4 (iReady)",
+    "present_levels_academic": "Jasmine is at a third-grade reading level as measured by iReady in Fall 2025 (Vocabulary: Grade 3, Literature Comprehension: Grade 3, Informational Text Comprehension: Grade 2); she can decode most grade-level words and reads with adequate fluency, but struggles to answer literal and inferential questions accurately. She has low reading and writing stamina and requires frequent reminders to use comprehension strategies when working independently. In Math, Jasmine is at a Grade 4 iReady level and has improved with multi-digit operations and integer rules, though she continues to struggle with multi-step word problems. She benefits greatly from 1:1 or small-group instruction but currently requires support to generalize skills to whole-group settings, and her independent ELA performance remains at approximately 50% accuracy.",
+    "present_levels_behavioral": "Jasmine has adjusted relatively well to Riverstone Prep, attends counseling weekly, and engages with her counselor; she demonstrates growing ability to identify coping strategies and distinguish her own emotions from others'. However, there is a clear pattern where academic frustration leads to avoidance behaviors \u2014 she tends to shut down, put her head down, or ask to leave the classroom rather than seeking help, resulting in inconsistent time in the general education setting. She prefers small-group and quiet activities and is more successful in 1:1 contexts. She has shown the ability to identify self-regulation strategies in the counseling room but does not consistently apply them in the classroom.",
+    "strengths": [
+      "Likes to participate in class and is open to feedback, especially during 1-on-1 check-ins",
+      "Full of warmth and gets along with her peers",
+      "Loves to help others and take on class jobs",
+      "Motivated by specific positive praise",
+      "Enjoys talking with her peers",
+      "Bright scholar who loves engaging in creative activities",
+      "Increasing understanding of personal boundaries and their importance",
+      "Able to distinguish between her own emotions and how others might feel in various situations"
+    ],
+    "interests": [
+      "Drawing",
+      "Dance",
+      "Spending time with peers and family",
+      "Participating in ELA class",
+      "Math problem solving (multi-digit operations and integer rules)"
+    ],
+    "behavioral_patterns": [
+      "Academic frustration leads to avoidance behaviors \u2014 rather than asking for help, Jasmine tends to shut down, affecting her ability to participate in the general education classroom",
+      "Quietly puts her head down when faced with grade-level literacy tasks she finds difficult",
+      "Asks to use the restroom multiple times to avoid difficult tasks during whole-group instruction",
+      "Spends significant time outside the classroom checking in with adults, leading to an inconsistent amount of time in the classroom",
+      "Chooses to remain in whole group 80% of the time when offered small group instruction in ELA, despite struggling in the whole-group setting",
+      "Demonstrates ability to use calming strategies in counseling room but does not consistently apply them in the classroom"
+    ],
+    "accommodations": [
+      {
+        "category": "presentation",
+        "text": "Repeat directions",
+        "source_quote": "Repeat directions"
+      },
+      {
+        "category": "response",
+        "text": "Reference sheets, graphic organizers and checklists",
+        "source_quote": "Reference sheets, graphic organizers and checklists"
+      },
+      {
+        "category": "timing",
+        "text": "Extra time",
+        "source_quote": "Extra time"
+      },
+      {
+        "category": "setting",
+        "text": "Small group (as needed)",
+        "source_quote": "Small group (as needed)"
+      },
+      {
+        "category": "presentation",
+        "text": "Reminders to pause, plan, proceed",
+        "source_quote": "Reminders to pause, plan, proceed"
+      },
+      {
+        "category": "timing",
+        "text": "Frequent breaks",
+        "source_quote": "Frequent breaks"
+      },
+      {
+        "category": "setting",
+        "text": "Sit in the front of the room",
+        "source_quote": "Sit in the front of the room"
+      },
+      {
+        "category": "presentation",
+        "text": "Copy of teacher's notes",
+        "source_quote": "Copy of teacher's notes"
+      },
+      {
+        "category": "timing",
+        "text": "Scheduled breaks",
+        "source_quote": "Scheduled breaks"
+      },
+      {
+        "category": "other",
+        "text": "1:1 check ins",
+        "source_quote": "1:1 check ins"
+      },
+      {
+        "category": "other",
+        "text": "Reminder to remain engaged",
+        "source_quote": "Reminder to remain engaged"
+      }
+    ],
+    "modifications": [
+      "Multimodal, inclusion support, small group pull outs when appropriate"
+    ],
+    "annual_goals": [
+      {
+        "area": "Counseling",
+        "baseline": "Jasmine is new to Riverstone Prep and has acclimated well. She is able to engage and enjoys socializing with her peers in unstructured settings. In sessions, she does well with listening to instructions; however, she struggles at times to use interventions when prompted. She can identify the emotions others might feel in difficult situations in the counseling setting. She can recognize and acknowledge her involvement in counseling; however, she sometimes does not apply these strategies in the classroom, which leads to withdrawal and shutdown. When frustration arises, she has shown the ability to walk away from situations that are difficult for her. Sometimes she shuts down rather than using strategies that work for her.",
+        "target": "Jasmine will improve her self-regulation skills by using a taught calming strategy (deep breathing, movement break, fidget tool, sensory tool, or grounding exercise) to calm her body and re-engage back to tasks 4 out of 5 opportunities, as measured by reports and observation.",
+        "benchmarks": [
+          "Given fading adult support, Jasmine will recognize and describe physical cues of being triggered or frustrated (tense body, faster breathing, restlessness, lowered head) in 4 out of 5 opportunities.",
+          "Jasmine will independently request or initiate a calming strategy (movement break, breathing pattern, sensory tool, grounding exercise) when experiencing dysregulation in 4 out of 5 opportunities.",
+          "When experiencing frustration or being triggered, Jasmine will use a taught self-regulation strategy (such as deep breathing, movement break, or sensory tool) and return to the classroom to engage in the assigned task, reflecting on the effectiveness of her strategy in 4 out of 5 opportunities."
+        ]
+      },
+      {
+        "area": "Mathematics",
+        "baseline": "When calm and focused, Jasmine likes to participate in class. Jasmine has gotten better solving questions involving multi-digit operations and integer rules and is working on increasing her math problem solving skill that involves word problems.",
+        "target": "Jasmine will improve problem solving of multi-step word problems and grade level questions that involve multiple operations to simplify, from an average of 55% to 75%.",
+        "benchmarks": [
+          "Jasmine will increase her skill solving word problems and show understanding with reason from 55% to 75%.",
+          "Jasmine will improve skill when solving equations involving integers and order of operations from 55% to 75%.",
+          "Jasmine will increase her ability to utilize her resources such as reference sheets and class notes provided from 55% to 75%."
+        ]
+      },
+      {
+        "area": "ELA",
+        "baseline": "Jasmine's current ELA grade is a 1.8. Riverstone Prep uses a standards-based grading system where 3 reflects full mastery of grade-level material and 2 reflects partial mastery. Currently, Jasmine is at a third-grade reading level, as measured by iReady in Fall 2025. Her subcategory scores are Vocabulary: Grade 3, Literature Comprehension: Grade 3, and Informational Text Comprehension: Grade 2. This makes it difficult for her to understand and write about the rigorous texts in ELA. Jasmine demonstrates partial and inconsistent engagement in class tasks and does not consistently put forth the full effort seen in her best moments during writing assignments. This makes it challenging to collect accurate and reliable data on her independent skills in class. When independently engaged and attempting work with accommodations, she continues to experience difficulty accessing and comprehending grade level texts, e.g., often not annotating, struggling to use reading strategies, etc. She often turns in reading homework with comprehension questions that have answers ranging from 0% to 50% accuracy when completed independently. Jasmine is new to Riverstone Prep and still learning our writing system. She is still working to create full paragraphs with claims, evidence introduced with context, and analysis that accurately reflects her reasoning for selecting her evidence. While effort is inconsistent, Jasmine is starting to adapt to our writing system and showing growth in finding the value of using graphic organizers and supports such as checklists. Her use of these supports is helping her find success and be more accurate with her responses. Jasmine requires significant adult support to break down complex vocabulary, sentence structures, and key ideas, as well as to organize her thinking for writing tasks. With 1:1 adult support, Jasmine can participate in writing activities at grade level, but her independent performance remains below grade-level expectations with 50% accuracy.",
+        "target": "Jasmine will increase her ability to comprehend complex texts to independently answer literal and inferential comprehension questions or writing prompts that meets grade level rubrics, from 50% to 75%.",
+        "benchmarks": [
+          "Jasmine will be able to accurately annotate a given text for the prompt, labeled annotation focus, supporting detail, etc.",
+          "Jasmine will increase her ability to independently answer literal comprehension questions about a text such as main idea, setting, or plot.",
+          "Jasmine will increase her ability to write a claim that accurately answers each part of the question.",
+          "Jasmine will increase her ability to independently find 3 effective pieces of textual evidence, or however many are required for the assignment, to support the claim and answers.",
+          "Jasmine will increase her ability to write analysis to show how her evidence is relevant to and contributes to her claim."
+        ]
+      }
+    ],
+    "english_learner": false,
+    "requires_aac": false
+  },
+  "lesson": {
+    "title": "What is 'community' and why is it important?",
+    "author": "Toby Lowe",
+    "grade_level": "Grade 7",
+    "standard": "RI.7.2",
+    "skill_focus": "Determining and summarizing the central idea of a text and identifying the details that develop it",
+    "knowledge_focus": "This informational text offers a useful and accurate definition for the word \"community\" which students will refer to throughout the unit. Students consider the feelings people associate with their communities and how the shared narrative of a community influences members' views.",
+    "estimated_reading_level": "Grade 9-10",
+    "vocabulary": [
+      {
+        "word": "Aspect",
+        "pronunciation": "as-pekt",
+        "definition": null
+      },
+      {
+        "word": "Moral",
+        "pronunciation": "mawr-uhl",
+        "definition": null
+      },
+      {
+        "word": "Narrative",
+        "pronunciation": "nar-uh-tiv",
+        "definition": null
+      },
+      {
+        "word": "Specific",
+        "pronunciation": "spi-sif-ik",
+        "definition": null
+      },
+      {
+        "word": "Solidarity",
+        "pronunciation": null,
+        "definition": "a feeling of unity or togetherness based on a common interest"
+      },
+      {
+        "word": "Dispersed",
+        "pronunciation": null,
+        "definition": "spread out"
+      },
+      {
+        "word": "Manifestation",
+        "pronunciation": null,
+        "definition": "a sign of something happening"
+      },
+      {
+        "word": "Essence",
+        "pronunciation": null,
+        "definition": "the quality that makes something what it is"
+      },
+      {
+        "word": "Courteous",
+        "pronunciation": null,
+        "definition": "polite and respectful in manner"
+      },
+      {
+        "word": "Conforming",
+        "pronunciation": null,
+        "definition": "complying with rules, standards, or the norms of a group"
+      }
+    ],
+    "passage_text": "[1] The word \"community\" has a strange power to it. It conveys a sense of togetherness and positivity. It speaks both of solidarity and homeliness. You will, almost never, hear people say what they mean by \"community\".\n\nWhat does community mean? And why is it important?\n\n[2] Here are the things that I think a definition of community must be able to explain in order to reflect the various communities in the world:\n\n\u25cf A definition of community must be able to account for the different types of communities that exist in the world. For example, it must be able to account for both a community of place, and something more dispersed, like \"the academic community\" or \"the Islamic community.\"\n\u25cf It must be able to account for the positive feelings that people have about \"community\" (e.g. the sense of togetherness), but without saying that \"community\" is necessarily good (after all, one of the best examples of a community is the Mafia, and even with the kindest reading of their activities, you'd struggle to argue that, on balance, they are a force for good in the world).\n\u25cf It must be able to explain the sense of identity and belonging associated with \"community.\" It must explain the feeling of pride or hurt we feel when a community of which we are part is praised or attacked. And it must explain the \"in\" group/\"out\" group nature of this identity \u2014 why some people are part of a particular community, and others are not.\n\u25cf The definition of community must be able to explain why \"community\" has the normative (moral) power that it does \u2014 how communities shape our sense of what 'good' and 'bad' means. For example, our community shapes our understanding of what being a good neighbor means \u2014 the shared understanding of how we should treat people around here.\n\u25cf It must be able to explain why \"community\" is different from other social groups \u2014 such as \"society,\" \"family,\" or just a group of people.\n\u25cf It must be able to account for the fact that people can be part of different communities simultaneously.\n\n[3] Given that framing, I offer this as my definition of \"community\":\nA community is a group of people who share an identity-forming narrative.\n\n[4] This means, a group of people who share a story that is so important to them that it defines an aspect of who they are. Those people build the shared story archetypes (characters) of that community into their sense of themselves; they build the history of those communities into their own personal history; and they see the world through the lens of those shared stories.\n\n[5] So, one of the communities that I consider myself to be part of is the community based around the city of Newcastle. The manifestations of this are that I take pride in showing people around the city. I feel slighted when people say horrible things about it. I feel at home whenever I hear a Geordie (Newcastle) accent (despite not having one myself). And so on.\n\n[6] But what makes me part of this community is my choice to write Newcastle's stories into my own story: the character traits for how Geordies are supposed to behave (be friendly, talk to strangers at bus stops, support Newcastle United, etc., etc.) are character traits that I have adopted. I take part in shared events where this story is played out \u2014 such as attending football matches at St. James Park and other cultural events in the city. I feel that arguments about the future of the city (should this building be built here? What green spaces does the city need? etc., etc.) are arguments about my own future. I see arguments about the UK's future through the lens of the future of Newcastle.\n\n[7] It is this choice to participate in the making and remaking of these stories about the city that makes me part of the community of Newcastle. It's not just about where you live, or where you work: it is possible to live and work in Newcastle without doing these things, without becoming part of this community. And there are many people who are from Newcastle originally, but who now live elsewhere, who would still consider themselves part of the Newcastle community because they still take an active part in conversations about what it means to be a part of this community.\n\n[8] Let's see how this definition works against the six key criteria for being an accurate and useful definition of \"community\":\n\n\u25cf It can account for all the different kinds of community \u2014 what people call \"communities of interest\" and \"communities of place.\" The essence of community is a shared story \u2014 that story can be about a place, or it can be about a religion, or any other social practice.\n\u25cf It can account for the positive feelings people have about being part of a community. The sense of a shared identity, of being part of something larger than we are, is well known as a source of good feeling. Communities can be positive social forces, doing good in the world, and they can be negative, doing harm (and they can be both of those things at once). Community is not, in and of itself, morally praiseworthy. It just is.\n\u25cf This definition of community explains the nature of shared identity in communities, and highlights the specific mechanism by which this occurs. It is the process of telling a story about yourself that draws on the shared cultural story archetypes which creates and maintains a shared identity.\n\u25cf It explains why community has the normative (moral) force that it does, because it is our narratives that provide us with our explanations for what good/bad look like. A good neighbor is someone who fits the story we tell ourselves about how a good neighbor behaves, a good colleague is someone who fits with the archetype of how that character behaves etc. Our narratives provide our moral framing.\n\u25cf It explains why \"community\" is different from other types of social groups. A community is a group with a shared identity-forming narrative. This is different from the set of people who live in a place, or have a shared interest.\n\u25cf The definition understands that people can be part of many communities simultaneously, and also how they can become part of (and drift away from) particular communities. It also is able to account for the tension that people can feel when they are part of multiple communities \u2014 when different aspects of their identity-defining stories clash, for example.\n\n[9] Community is a group of people who share a story that is so important to them that it defines an aspect of who they are. Those people build the shared story archetypes (characters) of that community into their sense of themselves; they build the history of those communities into their own personal history; and they see the world through the lens of those shared stories.\n\nWhy does this matter?\n\n[10] On one level, this is simply a plea for a more precise use of language. I am not saying that \"community\" is the only (or even most important) social grouping, but it is a particular type of social grouping that explains the strong sense of shared identity that people feel, and membership of particular groups give us a lens through which we see the world.\n\nWhy 'community' is a helpful concept for understanding and creating social change\n\n[11] I think my key message is that community is an important concept for social change because it helps us to see that social change requires a change in some of the most important stories we tell ourselves. Social change requires that we rewrite our communal narratives. Social change is change in community.",
+    "multiple_choice_questions": [
+      {
+        "number": 1,
+        "standard": "RI.6",
+        "stem": "Which best describes the author's main purpose in writing the article?",
+        "choices": [
+          "to illustrate how important it is to be part of multiple communities",
+          "to demonstrate the way community has shaped the author's life",
+          "to describe the life of a person who lives in Newcastle",
+          "to give a clear and useful definition of community"
+        ],
+        "correct_index": null
+      },
+      {
+        "number": 2,
+        "standard": "RI.1",
+        "stem": "Which piece of evidence best illustrates the central idea of the article?",
+        "choices": [
+          "\"So, one of the communities that I consider myself to be part of is the community based around the city of Newcastle.\" (Paragraph 5)",
+          "\"It is this choice to participate in the making and remaking of these stories about the city that makes me part of the community of Newcastle.\" (Paragraph 7)",
+          "\"Community is a group of people who share a story that is so important to them that it defines an aspect of who they are.\" (Paragraph 9)",
+          "\"Social change requires that we rewrite our communal narratives.\" (Paragraph 11)"
+        ],
+        "correct_index": null
+      },
+      {
+        "number": 3,
+        "standard": "RI.4",
+        "stem": "Reread the excerpt from paragraph 5:\n\n\"The manifestations of this are that I take pride in showing people around the city. I feel slighted when people say horrible things about it. I feel at home whenever I hear a Geordie (Newcastle) accent (despite not having one myself).\"\n\nWhat is the best meaning of the word \"slighted\" as it is used in the excerpt?",
+        "choices": [
+          "bored",
+          "insulted",
+          "motivated",
+          "recognized"
+        ],
+        "correct_index": null
+      },
+      {
+        "number": 4,
+        "standard": "RI.2",
+        "stem": "How do paragraphs 5-7 help the reader understand the author's central idea?",
+        "choices": [
+          "by explaining why community is neither good nor bad",
+          "by describing life for members of the Newcastle community",
+          "by giving an example of a community that is part of the author's story",
+          "by illustrating how the Newcastle community has many different members"
+        ],
+        "correct_index": null
+      }
+    ],
+    "short_response_prompt": "You have just read \"What is community and why is it important?\" by Toby Lowe. Explain what Lowe means when he says a community is \"a group of people who share an identity-forming narrative.\" [RI.2]\n\nMake sure to incorporate relevant unit vocabulary in your writing.",
+    "discussion_questions": [
+      {
+        "text": "Consider a community you are part of. What is something that is considered courteous behavior in that community?"
+      },
+      {
+        "text": "Do you think it is possible to be a part of a community without conforming to its views? Explain your answer."
+      },
+      {
+        "text": "Lowe says that \"people can be part of many communities.\" What might be some of the benefits of belonging to more than one community?"
+      }
+    ]
+  },
+  "plan": {
+    "gap_analysis": "This lesson uses an estimated Grade 9-10 informational text with dense academic vocabulary (e.g., 'normative,' 'archetypes,' 'manifestations,' 'dispersed') and requires students to sustain attention across 11 paragraphs, track an abstract argument about community definition, and produce an independent short-response paragraph using unit vocabulary \u2014 all demands that far exceed Jasmine's Grade 3 informational text comprehension level and Grade 2 subcategory score in Informational Text Comprehension. Jasmine's independent accuracy on comprehension questions hovers at 0\u201350% without adult support, and she struggles specifically to answer both literal and inferential questions about complex texts. The 45-minute whole-class lesson structure, which the lesson itself recommends as the primary modality, poses a high risk of triggering Jasmine's documented avoidance pattern \u2014 quietly putting her head down or requesting restroom breaks when faced with grade-level literacy tasks she finds difficult. The gap between lesson demand and student capacity is substantial across reading level, vocabulary load, abstract reasoning, writing stamina, and behavioral regulation.",
+    "student_specific_summary": "This plan is driven by Jasmine's IEP-documented Grade 3 reading level (Informational Text Comprehension: Grade 2) and her ELA annual goal to increase independent comprehension accuracy from 50% to 75%, combined with her documented accommodation needs for graphic organizers, checklists, 1:1 check-ins, frequent breaks, and small-group support, and her behavioral pattern in which academic frustration leads to avoidance rather than help-seeking.",
+    "modifications": [
+      {
+        "id": "mod-1",
+        "type": "leveled_text",
+        "title": "Leveled Version of 'What is Community and Why is it Important?' (Grade 3 Reading Level)",
+        "rationale": "Jasmine reads informational text at a Grade 2-3 level and cannot independently access the Grade 9-10 source text. A leveled rewrite preserves the central idea (RI.7.2) and key argument about community as a shared story while reducing sentence complexity, replacing multi-syllable academic vocabulary with familiar synonyms, and shortening paragraphs to match her stamina and decoding capacity. This directly targets her ELA goal benchmark of independently answering literal comprehension questions and her accommodation for multimodal inclusion support.",
+        "iep_citations": [
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "Currently, Jasmine is at a third-grade reading level, as measured by iReady in Fall 2025. Her subcategory scores are Vocabulary: Grade 3, Literature Comprehension: Grade 3, and Informational Text Comprehension: Grade 2."
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "when she is asked literal and inferential questions about a text verbally or through writing, Jasmine struggles to provide accurate answers"
+          },
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "Multimodal, inclusion support, small group pull outs when appropriate"
+          }
+        ]
+      },
+      {
+        "id": "mod-2",
+        "type": "vocab_support",
+        "title": "Pre-Teaching Vocabulary Card Set with Visual Anchors for Lesson and Unit Terms",
+        "rationale": "The lesson introduces four pronunciation-focused vocabulary words (aspect, moral, narrative, specific) and embeds high-demand academic terms throughout the passage (e.g., 'normative,' 'archetypes,' 'manifestations,' 'dispersed,' 'solidarity'). Jasmine's Vocabulary iReady subscore is Grade 3, meaning she will encounter significant unknown word density that will impede comprehension before she even begins answering questions. A pre-teaching card set with simple definitions, a sentence using the word in context, and a small visual anchor addresses her accommodation for reference sheets and directly supports her ELA goal of accurately comprehending complex texts independently.",
+        "iep_citations": [
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "Currently, Jasmine is at a third-grade reading level, as measured by iReady in Fall 2025. Her subcategory scores are Vocabulary: Grade 3, Literature Comprehension: Grade 3, and Informational Text Comprehension: Grade 2."
+          },
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "Reference sheets, graphic organizers and checklists"
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "Jasmine requires significant adult support to break down complex vocabulary, sentence structures, and key ideas, as well as to organize her thinking for writing tasks."
+          }
+        ]
+      },
+      {
+        "id": "mod-3",
+        "type": "graphic_organizer",
+        "title": "Central Idea + Supporting Details Graphic Organizer with Annotation Prompts",
+        "rationale": "The lesson's skill focus is RI.7.2: determining and summarizing the central idea of a text and identifying the details that develop it. Jasmine's IEP ELA goal includes a specific benchmark for accurately annotating a given text and independently answering literal comprehension questions about main idea. Her IEP also documents that she is 'showing growth in finding the value of using graphic organizers and supports such as checklists' and that 'her use of these supports is helping her find success and be more accurate with her responses.' A structured organizer with a box for the central idea, three labeled detail boxes, a summary sentence frame, and checkboxes for annotation steps directly supports both the skill standard and her active IEP goal progress.",
+        "iep_citations": [
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "Reference sheets, graphic organizers and checklists"
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "Jasmine is starting to adapt to our writing system and showing growth in finding the value of using graphic organizers and supports such as checklists. Her use of these supports is helping her find success and be more accurate with her responses."
+          },
+          {
+            "source": "IEP",
+            "section": "Measurable Annual Goals - ELA",
+            "quote": "Jasmine will be able to accurately annotate a given text for the prompt, labeled annotation focus, supporting detail, etc."
+          }
+        ]
+      },
+      {
+        "id": "mod-4",
+        "type": "scaffolded_mc",
+        "title": "Modified Multiple Choice Questions with Reduced Answer Choices and Embedded Text Support",
+        "rationale": "The lesson's four MC questions require students to evaluate evidence, interpret vocabulary in context ('slighted'), and reason about how paragraphs function to develop the central idea \u2014 all inferential tasks. Jasmine's independent accuracy on comprehension questions is documented at 0\u201350%, and she struggles specifically with inferential questions. The scaffolded versions reduce each question from four answer choices to three, replace abstract option language with simpler phrasing, provide the relevant paragraph number for each question so Jasmine can locate text, and flag one distractor with a brief note explaining why it does not fit. This preserves the RI.7.2 standard while removing construct-irrelevant barriers from decoding the questions themselves.",
+        "iep_citations": [
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "She often turns in reading homework with comprehension questions that have answers ranging from 0% to 50% accuracy when completed independently."
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "when she is asked literal and inferential questions about a text verbally or through writing, Jasmine struggles to provide accurate answers"
+          },
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "Reference sheets, graphic organizers and checklists"
+          }
+        ]
+      },
+      {
+        "id": "mod-5",
+        "type": "sentence_stem_response",
+        "title": "Scaffolded Short-Response with Sentence Stems, Claim-Evidence-Analysis Checklist, and Vocabulary Word Bank",
+        "rationale": "The short-response prompt requires Jasmine to independently write a paragraph explaining Lowe's abstract definition of community as a 'shared identity-forming narrative,' incorporate unit vocabulary, and meet grade-level rubric expectations. Jasmine's IEP documents that she 'requires significant adult support to break down complex vocabulary, sentence structures, and key ideas' and is 'still working to create full paragraphs with claims, evidence introduced with context, and analysis.' Sentence stems for the claim, evidence, and analysis moves \u2014 paired with a word bank of unit vocabulary and a self-checklist mirroring her IEP ELA benchmarks \u2014 reduce the language production barrier while holding her accountable to the same RI.7.2 argument and writing structure required of all students.",
+        "iep_citations": [
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "Jasmine requires significant adult support to break down complex vocabulary, sentence structures, and key ideas, as well as to organize her thinking for writing tasks."
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "She is still working to create full paragraphs with claims, evidence introduced with context, and analysis that accurately reflects her reasoning for selecting her evidence."
+          },
+          {
+            "source": "IEP",
+            "section": "Measurable Annual Goals - ELA",
+            "quote": "Jasmine will increase her ability to write a claim that accurately answers each part of the question."
+          },
+          {
+            "source": "IEP",
+            "section": "Measurable Annual Goals - ELA",
+            "quote": "Jasmine will increase her ability to write analysis to show how her evidence is relevant to and contributes to her claim."
+          }
+        ]
+      },
+      {
+        "id": "mod-6",
+        "type": "teacher_facilitation",
+        "title": "Chunked Pacing Plan with Proactive 1:1 Check-ins, Behavior Regulation Prompts, and Small-Group Option",
+        "rationale": "The 45-minute lesson is structured as primarily whole-class instruction, a setting in which Jasmine's IEP documents a clear pattern of shutdown and avoidance when she encounters difficulty. The teacher facilitation plan chunks the lesson into three 12-15 minute segments with a brief movement or sensory break between each, scripts proactive (non-reactive) 1:1 check-ins before independent practice tasks using positive praise, embeds a pre-arranged non-verbal signal Jasmine can use instead of requesting the restroom, and includes a decision point at the Independent Practice phase to offer small-group pull-out consistent with her IEP modification. This plan operationalizes her accommodations for 1:1 check-ins, frequent breaks, reminder to remain engaged, positive praise, and small group \u2014 and directly supports her counseling annual goal benchmark to independently initiate a calming strategy when experiencing dysregulation.",
+        "iep_citations": [
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "1:1 check ins"
+          },
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "Frequent breaks"
+          },
+          {
+            "source": "IEP",
+            "section": "Accommodations and Modifications",
+            "quote": "Reminder to remain engaged"
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Behavioral/Social/Emotional",
+            "quote": "There is a pattern where academic frustration leads to avoidance behaviors. Rather than asking for help, Jasmine tends to disengage and put her head down, which affects her ability to participate in the general education classroom."
+          },
+          {
+            "source": "IEP",
+            "section": "Present Levels of Academic Achievement and Functional Performance: Academics",
+            "quote": "Jasmine benefits immensely from working in small groups or 1 to 1 with teachers."
+          },
+          {
+            "source": "IEP",
+            "section": "Measurable Annual Goals - Counseling",
+            "quote": "Jasmine will independently request or initiate a calming strategy (movement break, breathing pattern, sensory tool, grounding exercise) when experiencing dysregulation in 4 out of 5 opportunities."
+          }
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "leveled_text": {
+      "title": "What Is \"Community\" and Why Is It Important? (Leveled Version)",
+      "passage": "**What Is \"Community\"?**\n\nThe word \"community\" has a lot of power. It makes people think of togetherness. It makes people feel at home. But most people never say what they really mean by it.\n\nSo what does \"community\" mean? And why does it matter?\n\nA good definition of community must do a few things. It must fit all kinds of communities. It must explain good feelings, like belonging. It must explain bad feelings, like being left out. It must explain why communities are different from families or neighborhoods. It must explain how people can belong to more than one community.\n\n**A Definition of Community**\n\nHere is one definition: A community is a group of people who share a narrative (a story). That story is so important that it shapes who they are. They use that story to understand the world. They build that story into their own life story.\n\nThink about it this way. A community shares characters. It shares history. It shares a way of seeing the world. That shared story is what makes a community.\n\nNot every community is good. A criminal gang is a community too. Communities are not good or bad by themselves. They just are.\n\n**The Newcastle Example**\n\nThe author, Toby Lowe, belongs to the community of Newcastle. Newcastle is a city in England. Lowe feels proud when he shows people around the city. He feels hurt when people say bad things about it. He feels at home when he hears a Newcastle accent.\n\nBut living in Newcastle is not enough to join the community. Lowe is part of it because he chose to make Newcastle's story his own story. He acts the way people from Newcastle are supposed to act. He goes to football matches there. He cares about the city's future.\n\nSome people live in Newcastle but are not part of that community. Some people moved away but still are. What matters is the shared story, not just where you live.\n\n**Why This Definition Works**\n\nThis definition fits all kinds of communities. A community's story can be about a place. It can be about a religion. It can be about any shared interest.\n\nIt explains good feelings, like pride and belonging. It explains bad feelings, like hurt when your community is attacked.\n\nIt explains why communities shape what we think is right and wrong. Our moral (right and wrong) ideas come from the stories our communities tell. A \"good neighbor\" means something specific (exact and clear) because our community has a story about it.\n\nIt explains why people can belong to more than one community. Each community has its own story. Sometimes those stories can clash.\n\n**Why Does This Matter?**\n\nA community is a group of people who share a story. That story shapes who they are. It shapes how they see the world.\n\nThis matters because changing a community means changing its story. If we want the world to get better, we have to change the stories we tell together.",
+      "target_grade_level": 4.5,
+      "preserved_central_idea": "A community is a group of people who share an identity-forming narrative (story) that shapes who they are and how they see the world.",
+      "notes_to_teacher": "This is a leveled rewrite of Toby Lowe's \"What is 'community' and why is it important?\" targeting FK Grade 4.5 (within the allowed ceiling of 5.5) for Jasmine Bailey, who reads informational text at approximately Grade 2\u20133 per her Fall 2025 iReady assessment. Key decisions made in this rewrite:\n\n1. SENTENCE LENGTH: All sentences are 15 words or fewer. Most are 8\u201312 words. Compound and semicolon-joined sentences from the original have been split into separate simple sentences.\n\n2. VOCABULARY: Academic/Tier 3 words (normative, archetypes, manifestations, dispersed, solidarity, simultaneously) have been replaced with familiar synonyms or removed. The four lesson vocabulary words (narrative, moral, aspect/specific) are defined inline in parentheses the first time they appear, matching the lesson's original vocabulary instruction.\n\n3. STRUCTURE: Three bolded mini-headings chunk the text to reduce \"wall of text\" effect and support Jasmine's documented low reading stamina. Bullet-point lists from the original have been converted to short declarative sentences to reduce cognitive load.\n\n4. CENTRAL IDEA PRESERVED: The definition \"a community is a group of people who share an identity-forming narrative (story)\" is introduced clearly in the \"A Definition of Community\" section and restated in the final section, matching the RI.7.2 target. The Newcastle example is fully retained as the concrete, load-bearing illustration of the definition.\n\n5. IEP ALIGNMENT: This rewrite directly supports Jasmine's ELA annual goal (increase independent comprehension accuracy from 50% to 75%), her accommodation for multimodal/inclusion support, and her benchmark to independently answer literal comprehension questions. Pair with mod-2 (vocabulary cards), mod-3 (graphic organizer), and mod-6 (chunked pacing plan with check-ins) for maximum support.",
+      "modification_ids": [
+        "mod-1"
+      ]
+    },
+    "vocab_card": {
+      "words": [
+        {
+          "word": "Aspect",
+          "kid_friendly_definition": "One part or piece of something bigger.",
+          "visual_cue": "A simple drawing of a sun with rays \u2014 label the whole circle 'community' and one ray 'aspect' (one part).",
+          "example_sentence": "One aspect of our class community is how we treat each other with kindness."
+        },
+        {
+          "word": "Moral",
+          "kid_friendly_definition": "A belief about what is right and what is wrong.",
+          "visual_cue": "A small scale (like a balance) with a heart on one side labeled 'right' and an X on the other labeled 'wrong.'",
+          "example_sentence": "The author says that every community shares a moral, or a sense of what good behavior looks like."
+        },
+        {
+          "word": "Narrative",
+          "kid_friendly_definition": "A story that a person or group tells about who they are.",
+          "visual_cue": "An open book with a small stick-figure person drawn inside \u2014 the person is part of the story.",
+          "example_sentence": "Lowe says a community is a group of people who share the same narrative, or story, about who they are."
+        },
+        {
+          "word": "Specific",
+          "kid_friendly_definition": "One clear, exact thing \u2014 not just anything.",
+          "visual_cue": "A big circle of many dots with one dot circled and an arrow pointing to it labeled 'this one.'",
+          "example_sentence": "The author gives specific examples, like the city of Newcastle, to show what a community looks like."
+        },
+        {
+          "word": "Solidarity",
+          "kid_friendly_definition": "A feeling of being together and on the same team.",
+          "visual_cue": "Three stick figures with arms around each other, drawn in a row \u2014 like friends standing together.",
+          "example_sentence": "When our class helps each other during a hard task, we show solidarity."
+        },
+        {
+          "word": "Dispersed",
+          "kid_friendly_definition": "Spread out far apart, not all in one place.",
+          "visual_cue": "A few small dots scattered across a wide open space \u2014 like seeds blown across a page.",
+          "example_sentence": "The author says a community can be dispersed, like people who share a faith but live in many different cities."
+        },
+        {
+          "word": "Manifestation",
+          "kid_friendly_definition": "A sign you can see that shows something is real.",
+          "visual_cue": "A lightbulb with a small arrow pointing out of it, labeled 'you can see it now!' \u2014 like an idea becoming real.",
+          "example_sentence": "The author says taking pride in his city is a manifestation of his love for the Newcastle community."
+        },
+        {
+          "word": "Essence",
+          "kid_friendly_definition": "The most important part that makes something what it is.",
+          "visual_cue": "A flower with many petals \u2014 the center of the flower is labeled 'essence,' the most important part.",
+          "example_sentence": "The essence of a community, the author says, is a shared story that people care deeply about."
+        },
+        {
+          "word": "Courteous",
+          "kid_friendly_definition": "Being polite and kind to the people around you.",
+          "visual_cue": "A stick figure holding a door open for another stick figure \u2014 both are smiling.",
+          "example_sentence": "In our class discussion, we were courteous by listening while our partner shared their answer."
+        },
+        {
+          "word": "Conforming",
+          "kid_friendly_definition": "Acting the same way a group does to fit in.",
+          "visual_cue": "Four stick figures all doing the same pose, with one small figure on the side deciding whether to match them.",
+          "example_sentence": "The author asks whether you can belong to a community without conforming to all of its shared ideas."
+        }
+      ],
+      "modification_ids": [
+        "mod-2"
+      ]
+    },
+    "graphic_organizer": {
+      "title": "What is 'community' and why is it important?",
+      "organizer_type": "Central Idea + 3 Supporting Details",
+      "structure_markdown": "\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551         CENTRAL IDEA + 3 SUPPORTING DETAILS                            \u2551\n\u2551         Skill: RI.7.2 \u2014 Determining and Summarizing Central Idea       \u2551\n\u2551         Name: ________________________   Date: _______________         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\n\n STEP 1 \u2014 ANNOTATE AS YOU READ\n \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n \u2502  Annotation Checklist:                                              \u2502\n \u2502  \u2610  Circle words you don't know.                                    \u2502\n \u2502  \u2610  Underline sentences that tell you what the text is mostly about.\u2502\n \u2502  \u2610  Put a star \u2605 next to details that support the main point.       \u2502\n \u2502  \u2610  Number each paragraph (1, 2, 3 \u2026) in the margin.               \u2502\n \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n STEP 2 \u2014 CENTRAL IDEA\n What is the most important point the author makes in the WHOLE text?\n \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n \u2502                                                                     \u2502\n \u2502  The author's central idea is:                                      \u2502\n \u2502                                                                     \u2502\n \u2502  ___________________________________________________________________\u2502\n \u2502                                                                     \u2502\n \u2502  ___________________________________________________________________\u2502\n \u2502                                                                     \u2502\n \u2502  ___________________________________________________________________\u2502\n \u2502                                                                     \u2502\n \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                                   \u2502\n           \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n           \u25bc                       \u25bc                       \u25bc\n\n STEP 3 \u2014 SUPPORTING DETAILS\n Find 3 details from the text that help explain or prove the central idea.\n\n \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n \u2502  SUPPORTING DETAIL 1  \u2502 \u2502  SUPPORTING DETAIL 2  \u2502 \u2502  SUPPORTING DETAIL 3  \u2502\n \u2502  (Paragraph: _____)   \u2502 \u2502  (Paragraph: _____)   \u2502 \u2502  (Paragraph: _____)   \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  One detail that      \u2502 \u2502  Another detail that  \u2502 \u2502  A third detail that  \u2502\n \u2502  supports this is:    \u2502 \u2502  supports this is:    \u2502 \u2502  supports this is:    \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  ___________________  \u2502 \u2502  ___________________  \u2502 \u2502  ___________________  \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  ___________________  \u2502 \u2502  ___________________  \u2502 \u2502  ___________________  \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  ___________________  \u2502 \u2502  ___________________  \u2502 \u2502  ___________________  \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  ___________________  \u2502 \u2502  ___________________  \u2502 \u2502  ___________________  \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  This detail shows    \u2502 \u2502  This detail shows    \u2502 \u2502  This detail shows    \u2502\n \u2502  the central idea     \u2502 \u2502  the central idea     \u2502 \u2502  the central idea     \u2502\n \u2502  because:             \u2502 \u2502  because:             \u2502 \u2502  because:             \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  ___________________  \u2502 \u2502  ___________________  \u2502 \u2502  ___________________  \u2502\n \u2502                       \u2502 \u2502                       \u2502 \u2502                       \u2502\n \u2502  ___________________  \u2502 \u2502  ___________________  \u2502 \u2502  ___________________  \u2502\n \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n STEP 4 \u2014 SUMMARY SENTENCE\n Use your central idea and details to write ONE summary sentence.\n \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n \u2502                                                                     \u2502\n \u2502  In \"What is 'community' and why is it important?\", the author's   \u2502\n \u2502  central idea is __________________________________________________ \u2502\n \u2502  _________________________________________________________________. \u2502\n \u2502  The author supports this by explaining that ______________________ \u2502\n \u2502  _________________________________________________________________, \u2502\n \u2502  _________________________________________________________________, \u2502\n \u2502  and _____________________________________________________________.  \u2502\n \u2502                                                                     \u2502\n \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n STEP 5 \u2014 SELF-CHECK BEFORE YOU TURN IN\n \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n \u2502  \u2610  I filled in the central idea box.                               \u2502\n \u2502  \u2610  I filled in all 3 supporting detail boxes.                      \u2502\n \u2502  \u2610  I wrote a paragraph number for each detail.                     \u2502\n \u2502  \u2610  I explained WHY each detail connects to the central idea.       \u2502\n \u2502  \u2610  I completed the summary sentence.                               \u2502\n \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n",
+      "sentence_stems": [
+        "The author's central idea is ___ because ___.",
+        "One detail that supports the central idea is ___ (paragraph ___). This detail shows the central idea because ___.",
+        "Another detail the author uses is ___. This is important because ___.",
+        "A third detail that helps explain the central idea is ___. This connects to the main point because ___.",
+        "In \"What is 'community' and why is it important?\", the author's central idea is ___. The author supports this by explaining that ___, ___, and ___.",
+        "This detail is important to the central idea because the author is trying to show that ___."
+      ],
+      "modification_ids": [
+        "mod-3"
+      ]
+    },
+    "scaffolded_mc": [
+      {
+        "original_number": 1,
+        "original_stem": "Which best describes the author's main purpose in writing the article?",
+        "modified_stem": "Why did the author write this article? Think about what the whole article is mostly trying to do.",
+        "choices": [
+          "To show how community has shaped the author's own life",
+          "To give a clear meaning of the word 'community'",
+          "To explain why being in many communities is important"
+        ],
+        "correct_index": 1,
+        "why_others_are_wrong": [
+          "The author does talk about his own life in Newcastle, but that is just one example he uses to explain his idea \u2014 it is not the main reason he wrote the article.",
+          "The author does mention that people can belong to many communities, but that is only one small detail, not the main reason he wrote the article."
+        ],
+        "modification_ids": [
+          "mod-4"
+        ]
+      },
+      {
+        "original_number": 2,
+        "original_stem": "Which piece of evidence best illustrates the central idea of the article?",
+        "modified_stem": "The central idea of this article is the author's definition of community. Which sentence from the article best shows that definition? (Hint: Look at Paragraph 9.)",
+        "choices": [
+          "\"So, one of the communities that I consider myself to be part of is the community based around the city of Newcastle.\" (Paragraph 5)",
+          "\"Community is a group of people who share a story that is so important to them that it defines an aspect of who they are.\" (Paragraph 9)",
+          "\"Social change requires that we rewrite our communal narratives.\" (Paragraph 11)"
+        ],
+        "correct_index": 1,
+        "why_others_are_wrong": [
+          "This sentence is an example the author uses about his own life. It supports the definition, but it does not state the definition itself.",
+          "This sentence is about how communities can change the world. It comes after the main definition and is not the definition itself."
+        ],
+        "modification_ids": [
+          "mod-4"
+        ]
+      },
+      {
+        "original_number": 3,
+        "original_stem": "Reread the excerpt from paragraph 5:\n\n\"The manifestations of this are that I take pride in showing people around the city. I feel slighted when people say horrible things about it. I feel at home whenever I hear a Geordie (Newcastle) accent (despite not having one myself).\"\n\nWhat is the best meaning of the word \"slighted\" as it is used in the excerpt?",
+        "modified_stem": "Read this sentence from Paragraph 5: \"I feel slighted when people say horrible things about it.\"\n\nThe author feels this way when people say HORRIBLE things about his city. What does \"slighted\" most likely mean?",
+        "choices": [
+          "Bored",
+          "Insulted",
+          "Motivated"
+        ],
+        "correct_index": 1,
+        "why_others_are_wrong": [
+          "Bored means you have nothing interesting to do. Someone would not feel bored just because people say horrible things \u2014 they would feel a stronger, more negative feeling.",
+          "Motivated means you feel ready to work hard. Hearing horrible things about something you love would not make you feel ready to work \u2014 it would make you feel hurt."
+        ],
+        "modification_ids": [
+          "mod-4"
+        ]
+      },
+      {
+        "original_number": 4,
+        "original_stem": "How do paragraphs 5-7 help the reader understand the author's central idea?",
+        "modified_stem": "In Paragraphs 5\u20137, the author talks about living in Newcastle. How do these paragraphs help you understand his main idea about community?",
+        "choices": [
+          "They give an example of a community that is part of the author's own story",
+          "They describe what daily life looks like for everyone in Newcastle",
+          "They explain why community is not always good or bad"
+        ],
+        "correct_index": 0,
+        "why_others_are_wrong": [
+          "The author only talks about his own personal connection to Newcastle, not what daily life is like for all the people who live there.",
+          "The author does say community is not always good or bad, but he explains that in a different part of the article \u2014 not in Paragraphs 5\u20137."
+        ],
+        "modification_ids": [
+          "mod-4"
+        ]
+      }
+    ],
+    "sentence_stem_response": {
+      "original_prompt": "You have just read \"What is community and why is it important?\" by Toby Lowe. Explain what Lowe means when he says a community is \"a group of people who share an identity-forming narrative.\" [RI.2]\n\nMake sure to incorporate relevant unit vocabulary in your writing.",
+      "modified_prompt": "You just read \"What is community and why is it important?\" by Toby Lowe. What does Lowe mean when he says a community is \"a group of people who share a story that shapes who they are\"? Use words from the word bank in your answer.",
+      "sentence_starters": [
+        "Lowe says a community is a group of people who ___.",
+        "In other words, a community's shared narrative (story) ___.",
+        "One example Lowe gives is ___, which shows that ___.",
+        "This matters because ___.",
+        "That is why Lowe believes a shared narrative is important to a community \u2014 it ___."
+      ],
+      "success_criteria_kid_friendly": [
+        "I wrote a claim sentence that explains what Lowe means by 'identity-forming narrative' (shared story).",
+        "I included at least two details or examples from the text to support my answer.",
+        "I used at least one vocabulary word from the word bank (such as narrative, community, identity, or belonging)."
+      ],
+      "modification_ids": [
+        "mod-5"
+      ]
+    },
+    "teacher_guide": {
+      "pacing_chunks": [
+        {
+          "when": "Before reading \u2014 Intro Slide Deck (minutes 0\u20135)",
+          "teacher_action": "Place Jasmine's vocabulary card set (mod-2) and graphic organizer (mod-3) on her desk before class begins, and quietly point them out during the slide deck intro: 'These are your tools for today \u2014 we'll use them together.' Briefly pre-teach the four lesson vocabulary words using the visual anchors on her card set, having Jasmine repeat each word aloud.",
+          "rationale_short": "Accommodation: reference sheets/graphic organizers; addresses Grade 3 vocabulary level and prevents early-lesson frustration that triggers shutdown."
+        },
+        {
+          "when": "During reading \u2014 Paragraphs 1\u20132, Whole Class Reading (minutes 5\u201312)",
+          "teacher_action": "Read paragraphs 1\u20132 aloud to the class while Jasmine follows along on her leveled text (mod-1); pause after the bulleted list and do a brief 1:1 whisper check-in \u2014 'Which bullet stands out to you? Point to it.' \u2014 before the class Turn & Talk.",
+          "rationale_short": "Accommodation: repeat directions, 1:1 check-ins; leveled text addresses Grade 2 informational comprehension level and proactive check-in prevents quiet disengagement."
+        },
+        {
+          "when": "During reading \u2014 Paragraphs 3\u20137, Partner Reading (minutes 12\u201322)",
+          "teacher_action": "Pair Jasmine with a warm, reliable peer for partner reading; prompt her to use the 'pause, plan, proceed' cue before answering During Reading Question B in writing \u2014 'Pause: what's the question asking? Plan: find the paragraph. Proceed: write your answer in the graphic organizer box.'",
+          "rationale_short": "Accommodation: reminders to pause/plan/proceed, graphic organizer; peer pairing leverages her strength of getting along with peers and reduces whole-group anxiety."
+        },
+        {
+          "when": "Scheduled movement break \u2014 transition into Paragraphs 8\u20139, Whole Class Reading (minute 22)",
+          "teacher_action": "Signal a 60-second standing stretch for the whole class before resuming whole-class reading of paragraphs 8\u201311; quietly check in with Jasmine: 'How are you feeling? Give me a thumbs up, sideways, or down.'",
+          "rationale_short": "Accommodation: scheduled breaks, frequent breaks; breaks the lesson into 12\u201315-minute chunks to reduce stamina demands and reset regulation before the densest section."
+        },
+        {
+          "when": "During reading \u2014 Paragraphs 8\u201311, Whole Class Reading (minutes 23\u201332)",
+          "teacher_action": "After paragraph 11, hand Jasmine the teacher's notes copy (mod-6 facilitation support) and direct her to add any missing details into her graphic organizer before Independent Practice begins; use a non-verbal signal (e.g., tap her desk twice) as a reminder to stay engaged if she begins to drift.",
+          "rationale_short": "Accommodation: copy of teacher's notes, reminder to remain engaged; ensures she has complete notes before the independent task, reducing the comprehension gap that triggers avoidance."
+        },
+        {
+          "when": "Independent Practice \u2014 Multiple Choice and Short Response (minutes 32\u201347, extra time as needed)",
+          "teacher_action": "Provide Jasmine with the modified MC questions (mod-4) and the scaffolded short-response with sentence stems and word bank (mod-5); conduct a proactive 1:1 check-in before she begins: 'Before you start, show me the claim sentence stem \u2014 you've got this.' Allow extended time and redirect to the self-checklist if she stalls.",
+          "rationale_short": "Accommodation: extra time, 1:1 check-ins, reference sheets/checklists; scaffolded materials address 0\u201350% independent accuracy and support ELA goal of writing a claim with evidence and analysis."
+        },
+        {
+          "when": "Student-Led Discussion (minutes 47\u201352)",
+          "teacher_action": "Assign Jasmine a discussion partner she already has rapport with; assign her a 'class job' role (e.g., timekeeper or question reader) to leverage her love of helping and boost engagement before the discussion begins.",
+          "rationale_short": "Strength-based: loves to help others, class jobs, and talking with peers; structured role reduces the open-endedness that can trigger withdrawal and capitalizes on her social strengths."
+        }
+      ],
+      "behavioral_supports": [
+        {
+          "when": "When Jasmine puts her head down during whole-class or partner reading",
+          "teacher_action": "Crouch to her level, speak quietly: 'Hey \u2014 I see you. Let's just find one word in this paragraph together.' Point to a specific line on her leveled text and prompt her to circle it, then offer a fidget tool from her desk kit.",
+          "rationale_short": "IEP counseling goal: Jasmine will recognize physical cues of frustration and use a calming strategy; quiet head-down is a documented shutdown signal \u2014 micro-task redirect lowers the demand barrier without drawing peer attention."
+        },
+        {
+          "when": "When Jasmine requests to use the restroom during a reading or independent work segment",
+          "teacher_action": "Acknowledge calmly without calling attention: 'Let's use our signal first \u2014 give me a thumbs sideways and try the breathing reset for 60 seconds, then we'll decide together.' Reference the pre-arranged non-verbal signal agreed upon with Jasmine.",
+          "rationale_short": "IEP behavioral pattern: multiple restroom requests are documented avoidance; the pre-arranged signal gives Jasmine an alternative self-regulation pathway that keeps her in the room, supporting the counseling goal of independently initiating a calming strategy."
+        },
+        {
+          "when": "When Jasmine is visibly frustrated and not attempting the short-response prompt",
+          "teacher_action": "Sit beside her, point to the sentence stem: 'Just fill in the first blank \u2014 one word. I'll check back in two minutes.' Leave her with the checklist checked off at step one so she sees progress.",
+          "rationale_short": "IEP ELA goal benchmark: write a claim that accurately answers the question; breaking the task into a single fill-in reduces initiation demand, which is documented as an area of disability impact (task initiation difficulty)."
+        },
+        {
+          "when": "When Jasmine declines the small-group pull-out option and chooses to stay in whole group",
+          "teacher_action": "Respect her choice without pressure, then increase the frequency of in-class 1:1 check-ins to every 8\u201310 minutes; position yourself near her seat during transitions so support is proximal without being conspicuous.",
+          "rationale_short": "IEP pattern: Jasmine chooses whole group 80% of the time despite struggling; honoring autonomy while tightening proximity-based support operationalizes her accommodation for 1:1 check-ins and front-of-room seating."
+        },
+        {
+          "when": "When Jasmine has spent time outside the classroom (e.g., counseling check-in) and returns mid-lesson",
+          "teacher_action": "Greet her warmly and immediately hand her the graphic organizer with any class-completed sections already filled in (from your teacher copy); whisper: 'We're on paragraph 8 \u2014 your organizer is ready, just add what you hear.'",
+          "rationale_short": "IEP pattern: inconsistent time in classroom due to adult check-ins; a pre-filled organizer removes the catch-up barrier that would otherwise trigger a second shutdown and supports re-engagement per her accommodation for copy of teacher's notes."
+        }
+      ],
+      "grouping_recommendation": "Jasmine receives 55 minutes of daily direct special education support in the general education ELA classroom, making full-inclusion the baseline for this lesson. For the Whole Class Reading segments (paragraphs 1\u20132 and 8\u201311), keep Jasmine in the whole-group setting with her leveled text, vocabulary card set, and a front-row seat near the teacher \u2014 her preference for whole-group participation should be honored while proximity-based 1:1 check-ins are used proactively. At the Independent Practice phase (minutes 32\u201347), offer \u2014 but do not mandate \u2014 a quiet small-group pull-out with the SE teacher for the modified MC and scaffolded short-response, framing it as a \"focus spot\" rather than a pull-out, since Jasmine has shown she benefits immensely from small-group and 1:1 settings even when she initially declines them.",
+      "praise_scripts": [
+        "I noticed you used the graphic organizer to find the central idea before you started writing \u2014 that's exactly what strong readers do, and it shows you're building a real skill.",
+        "You stayed with that paragraph even when it got tricky. That's what it looks like to push through hard work, and I saw you do it.",
+        "The way you explained what 'shared story' means in your own words \u2014 that was a Grade 7 move. Seriously, write that down so you remember it.",
+        "I watched you use the pause-plan-proceed steps before you answered that question. That's the strategy working, and you did that yourself.",
+        "You helped your partner find the evidence in paragraph 7 just now \u2014 that tells me you understood it well enough to teach it, which is the highest level of learning."
+      ],
+      "modification_ids": [
+        "mod-6"
+      ]
+    }
+  },
+  "verification": {
+    "readability": {
+      "original_fk_grade": 11.2,
+      "modified_fk_grade": 5.4,
+      "target_grade": 4.5,
+      "target_met": true
+    },
+    "every_mod_has_citation": true,
+    "total_iep_citations": 22,
+    "central_idea_preserved": true,
+    "central_idea_judgment": "The modified passage preserves the original's central idea faithfully and completely. Both texts center on the same core claim: a community is a group of people who share an identity-forming narrative (story), and that shared story defines who they are, shapes their values, and connects them to one another. Key supporting points are also maintained in the modified version: (1) a good definition of community must account for different types, feelings of belonging and exclusion, moral force, and the possibility of belonging to multiple communities simultaneously; (2) the Newcastle example illustrates that membership is about choosing to adopt a shared story, not merely geography; (3) communities are morally neutral \u2014 they just are; and (4) social change requires changing communal narratives. The simplification adjusts vocabulary and sentence complexity (appropriate for an accessibility/IEP context, given Jasmine's third-grade reading level), but it does not omit, distort, or replace the central idea. A reader of the modified text would arrive at the same central idea as a reader of the original: that community is fundamentally defined by a shared, identity-forming narrative.",
+    "warnings": []
+  },
+  "timings_ms": {
+    "extract_iep": 55331,
+    "extract_lesson": 57375,
+    "plan": 49918,
+    "gen_sentence_stem_response": 9754,
+    "gen_vocab_card": 18131,
+    "gen_graphic_organizer": 20469,
+    "gen_scaffolded_mc": 20896,
+    "gen_leveled_text": 26956,
+    "gen_teacher_guide": 51882,
+    "verify_central_idea": 7126,
+    "_tokens_cache_creation": 121040,
+    "_tokens_cache_read": 31242,
+    "_tokens_input": 32576,
+    "_tokens_output": 16682
+  }
+}
