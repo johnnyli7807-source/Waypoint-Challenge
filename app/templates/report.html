@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Modified Lesson — {{ r.student.student_name }}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    :root {
+      --bg:#f6f5f1; --ink:#1f2933; --accent:#1e6b53; --accent-soft:#e7f0ec;
+      --muted:#637381; --card:#fff; --border:#e3e7eb; --warn:#b25400; --warn-soft:#fff4e5;
+      --good:#0e7c3a; --good-soft:#e6f4ea;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font:15px/1.6 "Charter","Iowan Old Style",Georgia,serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 32px 24px 80px; }
+    h1, h2, h3, h4 { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    h1 { font-size: 30px; margin: 0 0 4px; }
+    h2 { font-size: 22px; margin: 40px 0 12px; padding-bottom:6px; border-bottom:2px solid var(--accent); }
+    h3 { font-size: 17px; margin: 22px 0 8px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .badges { margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .badge { display:inline-flex; align-items:center; gap:6px; font: 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; padding:6px 10px; border-radius:999px; background:#eef1ee; color:#445; }
+    .badge.good { background:var(--good-soft); color:var(--good); }
+    .badge.warn { background:var(--warn-soft); color:var(--warn); }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:20px 22px; margin: 14px 0; box-shadow: 0 1px 0 rgba(0,0,0,0.02); }
+    .grid-2 { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+    @media (max-width: 760px) { .grid-2 { grid-template-columns: 1fr; } }
+    .citations { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 10px 14px; margin: 10px 0 0; font-size: 14px; border-radius: 4px; }
+    .citations h4 { margin: 0 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+    .citations blockquote { margin: 6px 0; padding-left: 10px; border-left: 2px solid #b8d4ca; font-style: italic; color: #2d4f44; }
+    .citations .src { display:block; font-size:12px; color:var(--muted); font-style:normal; margin-top: 2px; }
+    .mod-rationale { color:#2d3a4a; }
+    .passage { font-family: "Charter","Iowan Old Style",Georgia,serif; font-size: 16px; }
+    .passage p { margin: 0 0 10px; }
+    pre.organizer { font-family: "SF Mono","Menlo","Consolas",monospace; font-size:13px; line-height:1.4; background:#fafafa; border:1px solid var(--border); padding:14px; border-radius:6px; overflow-x:auto; white-space:pre; }
+    .mc { padding: 10px 0; border-bottom:1px dashed var(--border); }
+    .mc:last-child { border-bottom:0; }
+    .mc .stems { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+    .mc .stems > div { font-size:14px; }
+    .mc .stems .label { display:block; font-weight:600; font-family:-apple-system,sans-serif; font-size:11px; text-transform:uppercase; color:var(--muted); margin-bottom:4px; letter-spacing:0.06em; }
+    @media (max-width: 760px) { .mc .stems { grid-template-columns: 1fr; } }
+    .mc ol { margin: 6px 0 0 18px; padding:0; }
+    .stems li.correct { font-weight:600; color: var(--good); }
+    .stems li.correct::after { content: " ✓"; }
+    table { width:100%; border-collapse: collapse; margin-top: 8px; font-size: 14px; }
+    th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
+    th { background:#fafafa; font-family:-apple-system,sans-serif; font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); }
+    .stems-list { padding-left: 20px; }
+    .stems-list li { margin: 4px 0; }
+    .pill-row { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+    .pill { background:#eef1ee; padding:4px 10px; border-radius:999px; font-size:13px; }
+    .timing { font-family: "SF Mono",Menlo,Consolas,monospace; font-size:12px; color:var(--muted); }
+    .warnings { background: var(--warn-soft); border-left: 3px solid var(--warn); padding: 10px 14px; border-radius: 4px; }
+    .when { font-weight:600; }
+    @media print {
+      body { background:#fff; }
+      .wrap { padding: 0; max-width: 100%; }
+      .card { break-inside: avoid; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="meta">Modified lesson packet</div>
+    <h1>{{ r.lesson.title }}</h1>
+    <div class="meta">For <strong>{{ r.student.student_name }}</strong> · {{ r.student.grade_level }} · disability: {{ r.student.disability }} · reading at {{ r.student.reading_level }}</div>
+    <div class="badges">
+      <span class="badge {% if r.verification.target_met or r.verification.readability.target_met %}good{% else %}warn{% endif %}">
+        Readability — original FK {{ r.verification.readability.original_fk_grade }} → modified FK {{ r.verification.readability.modified_fk_grade }} (target {{ r.verification.readability.target_grade }})
+      </span>
+      <span class="badge {% if r.verification.every_mod_has_citation %}good{% else %}warn{% endif %}">
+        {{ r.verification.total_iep_citations }} IEP citations across {{ r.plan.modifications|length }} modifications
+      </span>
+      <span class="badge {% if r.verification.central_idea_preserved %}good{% else %}warn{% endif %}">
+        {% if r.verification.central_idea_preserved %}Central idea preserved{% else %}Central idea may have drifted{% endif %}
+      </span>
+    </div>
+    {% if r.verification.warnings %}
+      <div class="warnings" style="margin-top:14px;">
+        <strong>Review notes:</strong>
+        <ul>{% for w in r.verification.warnings %}<li>{{ w }}</li>{% endfor %}</ul>
+      </div>
+    {% endif %}
+  </header>
+
+  <!-- ============================================================== -->
+  <h2>Why these modifications?</h2>
+  <div class="card">
+    <h3 style="margin-top:0;">Gap analysis</h3>
+    <p>{{ r.plan.gap_analysis }}</p>
+    <h3>Driven by this student's IEP</h3>
+    <p>{{ r.plan.student_specific_summary }}</p>
+  </div>
+
+  {% for m in r.plan.modifications %}
+  <div class="card">
+    <h3 style="margin-top:0;">{{ loop.index }}. {{ m.title }} <span class="meta">({{ m.type.value }})</span></h3>
+    <div class="mod-rationale">{{ m.rationale }}</div>
+    <div class="citations">
+      <h4>IEP citations</h4>
+      {% for c in m.iep_citations %}
+        <blockquote>“{{ c.quote }}”<span class="src">— {{ c.source }} · {{ c.section }}</span></blockquote>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <!-- ============================================================== -->
+  <h2>Student-facing materials</h2>
+
+  <!-- Leveled text -->
+  <div class="card">
+    <h3 style="margin-top:0;">{{ r.artifacts.leveled_text.title }}</h3>
+    <div class="meta">Leveled passage · target FK grade {{ r.artifacts.leveled_text.target_grade_level }} · actual FK {{ r.verification.readability.modified_fk_grade }}</div>
+    <div class="grid-2" style="margin-top:14px;">
+      <div>
+        <span class="badge">Original (Grade {{ r.lesson.grade_level }})</span>
+        <div class="passage" style="margin-top:8px; max-height:480px; overflow:auto; padding:6px 10px; border:1px solid var(--border); border-radius:6px; background:#fafafa;">
+          {% for para in r.lesson.passage_text.split('\n\n') %}<p>{{ para }}</p>{% endfor %}
+        </div>
+      </div>
+      <div>
+        <span class="badge good">Modified for {{ r.student.student_name.split(' ')[0] }}</span>
+        <div class="passage" style="margin-top:8px; max-height:480px; overflow:auto; padding:6px 10px; border:1px solid var(--border); border-radius:6px;">
+          {% for para in r.artifacts.leveled_text.passage.split('\n\n') %}<p>{{ para }}</p>{% endfor %}
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:14px;">
+      <strong>Notes for the teacher:</strong> {{ r.artifacts.leveled_text.notes_to_teacher }}
+    </div>
+    <div style="margin-top:6px;"><strong>Central idea preserved:</strong> {{ r.artifacts.leveled_text.preserved_central_idea }}</div>
+  </div>
+
+  <!-- Vocab card -->
+  <div class="card">
+    <h3 style="margin-top:0;">Pre-teach vocabulary</h3>
+    <table>
+      <thead><tr><th>Word</th><th>Kid-friendly definition</th><th>Visual cue</th><th>Example</th></tr></thead>
+      <tbody>
+        {% for w in r.artifacts.vocab_card.words %}
+        <tr>
+          <td><strong>{{ w.word }}</strong></td>
+          <td>{{ w.kid_friendly_definition }}</td>
+          <td>{{ w.visual_cue }}</td>
+          <td><em>{{ w.example_sentence }}</em></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Graphic organizer -->
+  <div class="card">
+    <h3 style="margin-top:0;">{{ r.artifacts.graphic_organizer.title }}</h3>
+    <div class="meta">{{ r.artifacts.graphic_organizer.organizer_type }}</div>
+    <pre class="organizer">{{ r.artifacts.graphic_organizer.structure_markdown }}</pre>
+    <strong>Sentence stems</strong>
+    <ul class="stems-list">
+      {% for s in r.artifacts.graphic_organizer.sentence_stems %}<li>{{ s }}</li>{% endfor %}
+    </ul>
+  </div>
+
+  <!-- Scaffolded MC questions -->
+  <div class="card">
+    <h3 style="margin-top:0;">Scaffolded multiple-choice questions</h3>
+    {% for q in r.artifacts.scaffolded_mc %}
+      <div class="mc">
+        <div class="meta">Q{{ q.original_number }}</div>
+        <div class="stems">
+          <div>
+            <span class="label">Original</span>
+            {{ q.original_stem }}
+          </div>
+          <div>
+            <span class="label">Modified for {{ r.student.student_name.split(' ')[0] }}</span>
+            {{ q.modified_stem }}
+            <ol type="A">
+              {% for c in q.choices %}
+                <li class="{% if loop.index0 == q.correct_index %}correct{% endif %}">{{ c }}</li>
+              {% endfor %}
+            </ol>
+          </div>
+        </div>
+        {% if q.why_others_are_wrong %}
+          <div class="meta" style="margin-top:6px;"><strong>Distractor notes:</strong>
+            {% for w in q.why_others_are_wrong %}<div>· {{ w }}</div>{% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Sentence-stem response -->
+  <div class="card">
+    <h3 style="margin-top:0;">Short-response prompt (scaffolded)</h3>
+    <div class="grid-2">
+      <div>
+        <span class="badge">Original prompt</span>
+        <p>{{ r.artifacts.sentence_stem_response.original_prompt }}</p>
+      </div>
+      <div>
+        <span class="badge good">Modified prompt</span>
+        <p>{{ r.artifacts.sentence_stem_response.modified_prompt }}</p>
+      </div>
+    </div>
+    <strong>Sentence starters</strong>
+    <ul class="stems-list">{% for s in r.artifacts.sentence_stem_response.sentence_starters %}<li>{{ s }}</li>{% endfor %}</ul>
+    <strong>I will know I'm done when…</strong>
+    <ul class="stems-list">{% for s in r.artifacts.sentence_stem_response.success_criteria_kid_friendly %}<li>{{ s }}</li>{% endfor %}</ul>
+  </div>
+
+  <!-- ============================================================== -->
+  <h2>Teacher facilitation</h2>
+  <div class="card">
+    <h3 style="margin-top:0;">Pacing chunks</h3>
+    <table>
+      <thead><tr><th>When</th><th>Teacher action</th><th>Why</th></tr></thead>
+      <tbody>
+        {% for s in r.artifacts.teacher_guide.pacing_chunks %}
+        <tr><td class="when">{{ s.when }}</td><td>{{ s.teacher_action }}</td><td class="meta">{{ s.rationale_short }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h3>Behavioral supports</h3>
+    <table>
+      <thead><tr><th>Cue</th><th>Action</th><th>Why</th></tr></thead>
+      <tbody>
+        {% for s in r.artifacts.teacher_guide.behavioral_supports %}
+        <tr><td class="when">{{ s.when }}</td><td>{{ s.teacher_action }}</td><td class="meta">{{ s.rationale_short }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h3>Grouping</h3>
+    <p>{{ r.artifacts.teacher_guide.grouping_recommendation }}</p>
+
+    <h3>Praise scripts</h3>
+    <ul class="stems-list">
+      {% for p in r.artifacts.teacher_guide.praise_scripts %}<li>"{{ p }}"</li>{% endfor %}
+    </ul>
+  </div>
+
+  <!-- ============================================================== -->
+  <h2>Pipeline diagnostics</h2>
+  <div class="card">
+    <div class="meta">Step timings (ms) and token usage. Prompt caching reuses both source documents across all calls.</div>
+    <table>
+      <thead><tr><th>Step</th><th>Value</th></tr></thead>
+      <tbody>
+        {% for k, v in r.timings_ms.items() %}
+        <tr><td class="timing">{{ k }}</td><td class="timing">{{ v }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+</body>
+</html>

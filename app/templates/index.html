@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IEP-aware Lesson Modifier</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    :root { --bg:#f6f5f1; --ink:#1f2933; --accent:#1e6b53; --muted:#637381; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width:720px; margin:48px auto; padding:0 20px; }
+    h1 { font-size:28px; margin:0 0 8px; }
+    p.lead { color:var(--muted); margin:0 0 32px; }
+    .card { background:var(--card); border:1px solid #e3e7eb; border-radius:10px; padding:24px; }
+    label { display:block; font-weight:600; margin-top:14px; }
+    input[type=file] { margin-top:6px; width:100%; }
+    button { margin-top:20px; background:var(--accent); color:#fff; border:0; padding:12px 18px; border-radius:6px; cursor:pointer; font-size:15px; font-weight:600; }
+    button:hover { background:#155e48; }
+    code { background:#eef1ee; padding:2px 6px; border-radius:4px; font-size:13px; }
+    .note { font-size:13px; color:var(--muted); margin-top:18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>IEP-aware Lesson Modifier</h1>
+    <p class="lead">Upload a lesson and a student's IEP. Get a modified lesson with every change traced back to the IEP.</p>
+
+    <form class="card" action="/modify/html" method="post" enctype="multipart/form-data">
+      <label>Lesson PDF
+        <input type="file" name="lesson_pdf" accept="application/pdf" required>
+      </label>
+      <label>IEP PDF
+        <input type="file" name="iep_pdf" accept="application/pdf" required>
+      </label>
+      <button type="submit">Generate modifications</button>
+      <p class="note">Tip: this typically takes 30–60 seconds. JSON endpoint available at <code>POST /modify</code>.</p>
+    </form>
+  </div>
+</body>
+</html>
