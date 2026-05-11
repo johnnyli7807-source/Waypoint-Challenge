@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+/* Design tokens */
+:root {
+  /* Paper / surfaces */
+  --paper:        #f6f1e7;
+  --paper-deep:   #efe7d4;
+  --paper-warm:   #faf6ec;
+
+  /* Ink */
+  --ink:          #1a1814;
+  --ink-soft:     #3d3a32;
+  --ink-muted:    #807866;
+
+  /* Rules */
+  --rule:         #d9cfb8;
+  --rule-soft:    #e7dec7;
+
+  /* Accent — academic forest */
+  --accent:       #2d4f3a;
+  --accent-deep:  #1f3a29;
+  --accent-soft:  #dce8df;
+  --accent-fade:  #ecf2ed;
+
+  /* States */
+  --alert:        #a64b1c;
+  --alert-soft:   #f3e3d3;
+  --positive:     #2d6e3a;
+  --positive-soft:#dde9dd;
+}
+
+@theme inline {
+  --color-paper:        var(--paper);
+  --color-paper-deep:   var(--paper-deep);
+  --color-paper-warm:   var(--paper-warm);
+  --color-ink:          var(--ink);
+  --color-ink-soft:     var(--ink-soft);
+  --color-ink-muted:    var(--ink-muted);
+  --color-rule:         var(--rule);
+  --color-rule-soft:    var(--rule-soft);
+  --color-accent:       var(--accent);
+  --color-accent-deep:  var(--accent-deep);
+  --color-accent-soft:  var(--accent-soft);
+  --color-accent-fade:  var(--accent-fade);
+  --color-alert:        var(--alert);
+  --color-alert-soft:   var(--alert-soft);
+  --color-positive:     var(--positive);
+  --color-positive-soft:var(--positive-soft);
+
+  --font-display: var(--font-display), "Fraunces", Georgia, serif;
+  --font-sans:    "General Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono:    var(--font-mono), "JetBrains Mono", ui-monospace, monospace;
+}
+
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  font-feature-settings: "ss01", "cv01";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper-warm);
+}
+
+/* Display headings get Fraunces with optical sizing tuned for size */
+.display {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01", "ss02", "lnum";
+  letter-spacing: -0.02em;
+  line-height: 1.04;
+  font-weight: 500;
+  font-variation-settings: "opsz" 144, "SOFT" 50;
+}
+.display-tight {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
+  line-height: 1.0;
+  font-weight: 600;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+}
+.serif {
+  font-family: var(--font-display);
+  font-feature-settings: "ss01";
+  font-variation-settings: "opsz" 14, "SOFT" 100;
+}
+
+/* Eyebrow label — small caps, the journal-of-record vibe */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+/* Mono label */
+.mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: -0.005em;
+}
+
+/* Hairline rules */
+.hr {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+}
+.hr-soft {
+  height: 1px;
+  background: var(--rule-soft);
+  border: 0;
+}
+
+/* Pull-quote treatment for IEP citations — the design hero moment */
+.pullquote {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 36, "SOFT" 100;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  position: relative;
+  padding-left: 1.5rem;
+}
+.pullquote::before {
+  content: "“";
+  font-family: var(--font-display);
+  font-size: 2.4em;
+  line-height: 0.9;
+  color: var(--accent);
+  position: absolute;
+  left: -0.05em;
+  top: -0.05em;
+  font-variation-settings: "opsz" 144;
+}
+
+/* Drop cap (used sparingly) */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: "opsz" 144, "SOFT" 0;
+  font-size: 4.2em;
+  line-height: 0.85;
+  float: left;
+  margin: 0.05em 0.12em -0.05em 0;
+  color: var(--accent);
+}
+
+/* Page texture — barely-there warm noise */
+.paper-texture {
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(rgba(122, 116, 100, 0.045) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Subtle motion */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.rise {
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+}
+.fade {
+  animation: fade 0.6s ease backwards;
+}
+
+/* Print: respect the paper */
+@media print {
+  body { background: white; color: black; }
+  .no-print { display: none !important; }
+}
